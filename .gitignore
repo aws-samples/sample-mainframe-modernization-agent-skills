@@ -1,0 +1,5 @@
+1-reverse-engineering-toolkits/identify-and-fix-atx-codebase-issues/test
+
+__pycache__/
+*.pyc
+
