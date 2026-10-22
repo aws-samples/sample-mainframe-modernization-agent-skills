@@ -1,0 +1,23 @@
+{
+  "name": "atx-fix-bfd-code-issue",
+  "displayName": "ATX Fix BFD Code Issues",
+  "description": "Diagnose and fix AWS Transform for mainframe (ATX) 'Discover data paths' extraction errors and warnings raised during business function discovery, on COBOL, PL/I, copybook, BMS, and JCL codebases.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "homepage": "https://github.com/aws-samples/sample-mainframe-modernization-agent-skills",
+  "repository": "https://github.com/aws-samples/sample-mainframe-modernization-agent-skills",
+  "license": "MIT-0",
+  "category": "developer-tools",
+  "keywords": [
+    "aws",
+    "aws-transform",
+    "mainframe",
+    "modernization",
+    "cobol",
+    "reverse-engineering",
+    "business-function-discovery"
+  ],
+  "skills": "./skills/"
+}

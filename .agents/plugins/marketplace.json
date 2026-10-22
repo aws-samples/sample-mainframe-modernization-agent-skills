@@ -1,0 +1,20 @@
+{
+  "name": "mainframe-modernization",
+  "interface": {
+    "displayName": "Mainframe Modernization on AWS"
+  },
+  "plugins": [
+    {
+      "name": "atx-fix-bfd-code-issue",
+      "source": {
+        "source": "local",
+        "path": "./plugins/atx-fix-bfd-code-issue"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Modernization"
+    }
+  ]
+}

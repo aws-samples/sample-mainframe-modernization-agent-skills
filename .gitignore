@@ -1,0 +1,14 @@
+# Local test data (may contain customer source; never commit)
+plugins/*/test/
+
+# Local skill run artifacts
+input/
+output/
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# Security scan tooling metadata
+.holmes/
+.protoshield/

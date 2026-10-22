@@ -1,0 +1,16 @@
+{
+  "name": "mainframe-modernization",
+  "owner": {
+    "name": "Amazon Web Services"
+  },
+  "metadata": {
+    "description": "Agent plugins and skills for mainframe modernization on AWS with AWS Transform for mainframe."
+  },
+  "plugins": [
+    {
+      "name": "atx-fix-bfd-code-issue",
+      "source": "./plugins/atx-fix-bfd-code-issue",
+      "description": "Diagnose and fix AWS Transform for mainframe (ATX) 'Discover data paths' extraction errors and warnings raised during business function discovery, on COBOL, PL/I, copybook, BMS, and JCL codebases."
+    }
+  ]
+}
